@@ -124,10 +124,3 @@ FROM customer
 GROUP BY category
 ORDER BY percentage_difference DESC;
 
-SELECT * FROM customer;
-
-SELECT COUNT(*) AS total_records
-FROM customer;
-
-SELECT *
-FROM customer LIMIT 4000;
